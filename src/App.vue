@@ -1,12 +1,16 @@
 <template>
-  <div class="bg-blue-500 text-white text-center p-6">
-    Tailwind CSS работает!
+  <div>
+    <Header />
   </div>
 </template>
 
 <script>
+import Header from './components/Header.vue'; 
+
 export default {
-  
+  components: {
+    Header
+  }
 }
 </script>
 
