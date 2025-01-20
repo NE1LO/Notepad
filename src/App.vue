@@ -1,15 +1,18 @@
 <template>
   <div>
     <Header />
+    <NotesList />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'; 
+import Header from './components/Header.vue';
+import NotesList from './components/NotesList.vue'; 
 
 export default {
   components: {
-    Header
+    Header,
+    NotesList
   }
 }
 </script>

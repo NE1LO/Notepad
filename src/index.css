@@ -17,6 +17,10 @@ body {
 input {
   font-family: "Montserrat", sans-serif, Inter, system-ui, Avenir, Helvetica,
     Arial, sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: #1a1a1a;
 }
 
 input::placeholder {
@@ -75,12 +79,12 @@ button {
   height: 25px;
   width: 100px;
   background-color: transparent;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   color: black;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #909090;
+  border-color: #ffffff;
 }
 button:focus,
 button:focus-visible {

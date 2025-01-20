@@ -1,7 +1,7 @@
 <template>
     <header class="flex justify-center text-xs p-2">
         <h1>
-            Notepad
+            hello user228@
         </h1>
     </header>
 </template>
