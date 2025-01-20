@@ -9,13 +9,34 @@
          />
          <button @click="addTask" class="bg-blue-500 h-full">Save</button>
         </div>
+        <ul>
+            <li v-for="(task, index) in tasks"
+            :key="index"
+            class=""
+            >
+                <p>{{task}}</p>
+            </li>
+        </ul>
     </div>
 
 </template>
 
 <script>
 export default {
-    
+    data() {
+        return{
+            tasks: [],
+            newTask: '',
+        };
+    },
+    methods: {
+        addTask() {
+            if (this.newTask.trim()) {
+                this.tasks.push(this.newTask.trim());
+                this.newTask = '';
+            }
+        }
+    }
 }
 </script>
 
