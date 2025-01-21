@@ -6,17 +6,15 @@
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import NotesList from './components/NotesList.vue'; 
+import Header from "./components/Header.vue";
+import NotesList from "./components/TasksList.vue";
 
 export default {
   components: {
     Header,
-    NotesList
-  }
-}
+    NotesList,
+  },
+};
 </script>
 
-<style>
-  
-</style>
+<style></style>

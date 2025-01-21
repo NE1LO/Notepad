@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Interrgb(255, 0, 0)m-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Interrgb(255, 0, 0) m-ui, Avenir, Helvetica, Arial, sans-serif;
 
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;

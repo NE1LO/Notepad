@@ -1,19 +1,11 @@
 <template>
-    <header class="flex justify-center text-xs p-2">
-        <h1>
-            hello user228@
-        </h1>
-    </header>
+  <header class="flex justify-center text-xs p-2">
+    <h1>hello user228@</h1>
+  </header>
 </template>
 
 <script>
-
-export default {
-    
-}
-
+export default {};
 </script>
 
-<style>
-    
-</style>
+<style></style>

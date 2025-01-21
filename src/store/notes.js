@@ -1,10 +1,9 @@
-import { defineStore } from 'pinia';
+import { defineStore } from "pinia";
 
-export const useNotesStore = defineStore('notes', {
+export const useNotesStore = defineStore("notes", {
   state: () => ({
     notes: [],
   }),
-
 
   actions: {
     addNote(note) {
@@ -16,6 +15,6 @@ export const useNotesStore = defineStore('notes', {
   },
 
   getters: {
-    totalNotes: (state) => state.notes.length
+    totalNotes: (state) => state.notes.length,
   },
 });
