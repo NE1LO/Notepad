@@ -1,7 +1,7 @@
 <template>
   <div>
     <CreateTask @add-task="addTask" />
-    <ul class="mt-4 p-4 flex  items-center flex-col">
+    <ul class="mt-4 p-4 flex items-center flex-col">
       <TaskItem
         v-for="(task, index) in tasks"
         :key="index"
@@ -30,9 +30,9 @@ export default {
   },
   methods: {
     addTask(newTask) {
-     if (newTask.trim()) {
-    this.tasks.push(newTask.trim());
-  }
+      if (newTask.trim()) {
+        this.tasks.push(newTask.trim());
+      }
     },
     deleteTask(index) {
       this.tasks.splice(index, 1);
