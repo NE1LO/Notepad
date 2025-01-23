@@ -1,6 +1,12 @@
 <template>
   <header class="flex justify-center text-xs p-2">
-    <h1>hello user228@</h1>
+    <h1>Welcome to notepad</h1>
+    <nav>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </nav>
   </header>
 </template>
 
